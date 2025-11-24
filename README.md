@@ -18,19 +18,6 @@
 - **Early stopping sur Calmar Ratio 30-epoch rolling**
 - **Live trading MT5** avec arbitrage intelligent entre les deux agents
 
-## Structure du dépôt
-
-```
-PPO-SAINT---multi-agent/
-├── train.py                  → Script d'entraînement (long + short)
-├── live.py                   → Bot live MT5 (dual agent)
-├── norm_stats_ohlc_indics.npz → Stats de normalisation (généré à l'entraînement)
-├── best_saintv2_btc_long.pth  → Meilleur modèle Long-only
-├── best_saintv2_btc_short.pth → Meilleur modèle Short-only
-├── requirements.txt
-└── README.md
-```
-
 ## Installation
 
 ```bash
