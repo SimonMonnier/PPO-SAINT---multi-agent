@@ -4,19 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **Un des setups RL les plus avancés actuellement en production sur BTC/USD timeframe 1 minute.**  
 > Deux agents spécialisés (Long-only & Short-only) entraînés avec PPO + SAINTv2 allégé, masquage d'actions, reward Sharpe-like sur equity log-return, et exécution live via MT5.
-
-## Performances récentes (backtest + live 2025)
-
-| Métrique              | Valeur          | Commentaire |
-|-----------------------|------------------|-----------|
-| Profit Factor         | **2.8 – 4.1**    | selon période |
-| Winrate               | 62 – 68%         | trades > 0 |
-| Calmar Ratio (30j rolling) | **4.2 – 7.8** | très stable |
-| Max Drawdown (intraday) | < 18%          | grâce au dual agent |
-| Trades/jour           | 8 – 14           | scalping pur M1 |
-| Temps moyen en position | 4 – 9 minutes  | vrai scalping |
 
 ## Fonctionnalités clés
 
