@@ -2,9 +2,6 @@
 # PPO + SAINTv2 — Multi-Agent Scalping BTC/USD M1  
 **"Loup Scalpeur" — Dual Agent Long/Short spécialisé + Action Masking + SL/TP ATR**
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-orange)](https://pytorch.org/)
-[![MetaTrader5](https://img.shields.io/badge/MetaTrader5-API-green)](https://www.metatrader5.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > **Un des setups RL les plus avancés actuellement en production sur BTC/USD timeframe 1 minute.**  
